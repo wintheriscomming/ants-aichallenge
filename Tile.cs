@@ -1,5 +1,13 @@
-namespace Ants
+namespace Ants;
+
+public enum Tile
 {
-    public enum Tile { Ant, Dead, Land, Food, Water, Unseen, Hill }
+    Ant,
+    Dead, 
+    Land, 
+    Food, 
+    Water, 
+    Unseen, 
+    Hill
 }
 
